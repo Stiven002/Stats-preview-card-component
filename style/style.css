@@ -250,12 +250,20 @@ main{
 
     .text h1{
         font-size: 15px;
+        margin-bottom: 5%;
     }
 
     .text p{
         font-size: 10px;
     }
+
+    .compani{
+        margin-top: 10%;
+    }
 }
+
+@media (max-width: 350px){}
+
 
 @media (max-width: 300px){
     .text h1{
