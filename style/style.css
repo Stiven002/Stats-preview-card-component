@@ -246,6 +246,19 @@ main{
     }
 }
 
+
+@media (max-width: 400px){
+
+    .text h1{
+        margin-bottom: 5%;
+    }
+
+    .compani{
+        margin-top: 10%;
+    }
+}
+
+
 @media (max-width: 380px){
 
     .text h1{
