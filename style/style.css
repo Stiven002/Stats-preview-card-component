@@ -198,6 +198,11 @@ main{
 }
 
 @media (max-width: 380px){
+
+    .text h1{
+        font-size: 15px;
+    }
+
     .text p{
         font-size: 10px;
     }
