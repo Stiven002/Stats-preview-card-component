@@ -96,29 +96,45 @@ main{
     }
 }
 
-@media (max-width: 980px){
+@media (max-width: 1070px){
+    .compani{
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 970px){
+    .compani{
+        margin-top: 15%;
+    }
+}
+
+
+
+@media (max-width: 850px){
     .container{
         flex-direction: column-reverse;
         height: 90%;
+        width: 35%;
     }
 
     .text {
         width: 100%;
-        height: 60%;
+        height: 65%;
         text-align: center;
     }
 
     .text h1{
-        font-size: 50px;
+        font-size: 20px;
+        margin-bottom: 5%;
     }
 
     .text p{
-        font-size: 25px;
+        font-size: 10px;
     }
 
     .img{
         width: 100%;
-        height: 40%;
+        height: 35%;
     }
 
     .img img{
@@ -127,44 +143,60 @@ main{
 
     .compani{
         flex-direction: column;
-        margin-top: 10%;
-    }
-}
-
-@media (max-width: 850px){
-    .text h1{
-        font-size: 35px;
+        margin-top: 5%;
     }
 
-    .text p{
-        font-size: 22px;
+    .compani_discription h2{
+        font-size: 15px;
     }
 
     .compani_discription p{
-        font-size: 20px;
+        font-size: 10px;
     }
 }
 
+
 @media (max-width: 780px){
     .text h1{
-        font-size: 30px;
+        font-size: 20px;
         margin-bottom: 5%;
     }
 
     .text p{
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .compani{
-        margin-top: 8%;
+        margin-top: 5%;
+    }
+
+    .compani_discriptionh2{
+        font-size: 15px;
     }
 
     .compani_discription p{
-        font-size: 18px;
+        font-size: 10px;
     }
 }
 
-@media (max-width: 550px){
+@media (max-width: 750px){
+    .container{
+        width: 40%;
+    }
+}
+
+@media (max-width: 650px){
+    .container{
+        width: 45%;
+    }
+}
+
+@media (max-width: 580px){
+    
+    .container{
+        width: 50%;
+    }
+    
     .text h1{
         font-size: 20px;
         margin-bottom: 0%;
@@ -185,6 +217,22 @@ main{
 
     .compani_discription p{
         font-size: 13px;
+    }
+}
+
+@media (max-width: 520px){
+    .container{
+        width: 60%;
+    }
+
+    .compani{
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 450px){
+    .container{
+        width: 75%;
     }
 }
 
